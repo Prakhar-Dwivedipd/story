@@ -1,0 +1,54 @@
+$ git init
+
+$ git status
+
+
+$ git add Chapter1.txt
+
+
+$ git commit -m "Enter New Information About Updates."
+
+
+$git log
+
+
+
+
+$git diff Chapter3.txt
+
+
+
+$ git checkout Chapter3.txt
+
+
+
+$ git remote add <name> <url>
+
+
+
+#------------------Below code pushes LOCAL REPOSITORY TO REMOTE REPOSITORY
+
+# MAKE SURE THAT U HAVE OPENED YOUR GITHUB ACCOUNT WITH SAME EMAIL ID AS MENTION IN git.log
+
+# STEP1 : Create blank repositry with no readme file
+
+
+
+$ git remote remove origin   ## <---- THIS CODE WILL RESET AND DELETE EVERTHING
+ 
+
+$ git remote add origin <url>
+
+$ git remote -v
+
+$ git push origin main
+
+
+
+#-------------------- BRANCHING
+
+$ git branch 
+
+$ git checkout <filename>
+
+#---------------------
